@@ -1,6 +1,8 @@
 :root.theme-light {
+  color-scheme: light;
   --main-color: #353430;
   --accent-color: #ff8dcb;
+  --accent-color-transparent: rgba(255, 141, 203, 0.4);
   --bg-color: #fff1f7;
   --bg-image: url('../images/cover-image-light.png');
   --rec-visibility: hidden;
@@ -13,8 +15,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    color-scheme: light;
     --main-color: #353430;
     --accent-color: #ff8dcb;
+    --accent-color-transparent: rgba(255, 141, 203, 0.4);
     --bg-color: #fff1f7;
     --bg-image: url('../images/cover-image-light.png');
     --rec-visibility: hidden;
